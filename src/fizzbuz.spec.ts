@@ -20,4 +20,10 @@ describe("FizzBuzz", () => {
     expect(fb.check(12)).toBe("Fizz");
     expect(fb.check(30)).toBe("Fizz");
   })
+
+  test("Should return Buzz for multiples of 5", () => {
+    expect(fb.check(5)).toBe("Buzz");
+    expect(fb.check(20)).toBe("Buzz");
+    expect(fb.check(55)).toBe("Buzz");
+  })
 })
