@@ -9,6 +9,9 @@ TODOS:
 - Refatorar função check para que retorne Fizz para multiplos de 5
 - Criar caso de teste para multiples de 3 e 5
 - Refatorar função check para que retorne FizzBuzz para multiplos de 3 e 5
+- Criar caso de teste para aceitar numeros entre 0 e 100
+- Refatorar código para ignorar números abaixo de 0 ou maiores que 100
 
 Refactors:
 - Inserir verificações em função separada
+- Inserir check de range em função separada

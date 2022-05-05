@@ -2,6 +2,8 @@ export class Fizzbuzz {
 
   check (num: number): string {
 
+    if(num < 0 || num > 100) return "Invalid value";
+
     if(this.isMultiple(num,3) && this.isMultiple(num,5)) return "FizzBuzz";
 
     if(this.isMultiple(num,3)) return "Fizz";
