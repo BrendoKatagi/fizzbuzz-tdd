@@ -17,5 +17,7 @@ describe("FizzBuzz", () => {
 
   test("Should return Fizz for multiples of 3", () => {
     expect(fb.check(3)).toBe("Fizz");
+    expect(fb.check(12)).toBe("Fizz");
+    expect(fb.check(30)).toBe("Fizz");
   })
 })
