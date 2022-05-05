@@ -1,6 +1,6 @@
 export class Fizzbuzz {
 
-  check (num: number): number {
-    return num;
+  check (num: number): string {
+    return num.toString();
   }
 }
