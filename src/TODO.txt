@@ -1,0 +1,4 @@
+- Criar teste para o caso básico de retornar 1
+- Retornar 1 na função
+- Criar teste para retornar 2 quando a entrada for igual a 2
+- Refatorar método check para retornar 2 quando a entrada for 2
