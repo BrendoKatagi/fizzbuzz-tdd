@@ -1,4 +1,14 @@
+TODOS:
 - Criar teste para o caso básico de retornar 1
 - Retornar 1 na função
 - Criar teste para retornar 2 quando a entrada for igual a 2
 - Refatorar método check para retornar 2 quando a entrada for 2
+- Criar caso de teste para multiplos de 3
+- Refatorar função check para que retorne Fizz para multiplos de 3
+- Criar caso de teste para multiplos de 5
+- Refatorar função check para que retorne Fizz para multiplos de 5
+- Criar caso de teste para multiples de 3 e 5
+- Refatorar função check para que retorne FizzBuzz para multiplos de 3 e 5
+
+Refactors:
+- Inserir verificações em função separada
