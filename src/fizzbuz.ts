@@ -2,7 +2,7 @@ export class Fizzbuzz {
 
   check (num: number): string {
 
-    if(num < 0 || num > 100) return "Invalid value";
+    if(!this.isValidNumber(num)) return "Invalid value";
 
     if(this.isMultiple(num,3) && this.isMultiple(num,5)) return "FizzBuzz";
 
@@ -15,5 +15,9 @@ export class Fizzbuzz {
 
   isMultiple (numerator: number, denominator: number): boolean {
     return numerator % denominator == 0 ? true : false; 
+  }
+
+  isValidNumber(num: number){
+    return num < 0 || num > 100 ? false : true;
   }
 }
