@@ -10,4 +10,8 @@ describe("FizzBuzz", () => {
   test("Should return 1 for entry 1", () => {
     expect(fb.check(1)).toBe(1);
   })
+
+  test("Should return 2 for entry 2", () => {
+    expect(fb.check(2)).toBe(2);
+  })
 })
