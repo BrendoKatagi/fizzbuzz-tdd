@@ -7,6 +7,15 @@ beforeEach(() => {
 });
 
 describe("FizzBuzz", () => {
+
+  test("Should accept only numbers between 1 and 100", () => {
+    expect(fb.check(-3)).toBe("Invalid value");
+    expect(fb.check(105)).toBe("Invalid value");
+    expect(fb.check(-15)).toBe("Invalid value");
+    expect(fb.check(150)).toBe("Invalid value");
+
+  })
+
   test("Should return 1 for entry 1", () => {
     expect(fb.check(1)).toBe("1");
   })
